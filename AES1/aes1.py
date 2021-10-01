@@ -1,4 +1,5 @@
 #AES is a symmetric-key block cipher , having the key and knowing the coorect mode you should be able to decrypt the ciphertext 
+#The ECB mode encrypts each block seperately so if we have two identical plaintext blocks : it will give two identical ciphertext blocks
 #we know from task description : the key , the ciphertext and the mode used to encrypt
 
 from Crypto.Cipher import AES
